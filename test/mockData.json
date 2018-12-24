@@ -1,0 +1,181 @@
+[{
+  "eventId": "1",
+  "killId" : "MjAxOC0xMi0xNFQxODozMzo1MC4zMjQwMDFaTWlldGVnUmF2YW4=",
+  "guild" : "Red",
+  "ts" : "2018-12-14T18:33:50.324001Z",
+  "killer" : "Mieteg",
+  "victim" : "Ravan",
+  "type" : "KILL",
+  "fame" : 0.0
+},
+{
+  "eventId": "1",
+  "killId" : "MjAxOC0xMi0xNFQxODozMzo0My45NTIwNjE0MDBaTHlyeWNzR29ubWFn",
+  "guild" : "Red",
+  "ts" : "2018-12-14T18:33:43.952061400Z",
+  "killer" : "Lyrycs",
+  "victim" : "Gonmag",
+  "type" : "KILL",
+  "fame" : 0.0
+},
+{
+  "eventId": "1",
+  "killId" : "MjAxOC0xMi0xNFQxODozMzoxNC4wMDIxMzA3MDBaTHlyeWNzUmF2YW4=",
+  "guild" : "Red",
+  "ts" : "2018-12-14T18:33:14.002130700Z",
+  "killer" : "Lyrycs",
+  "victim" : "Ravan",
+  "type" : "KILL",
+  "fame" : 10271.0
+},
+{
+  "eventId": "1",
+  "killId" : "MjAxOC0xMi0xNFQxODo0Nzo0NC44NDU2NTIxMDBaWW91ckVuZW15Q2FuZHlraXp6ZXI=",
+  "guild" : "Red",
+  "ts" : "2018-12-14T18:47:44.845652100Z",
+  "killer" : "YourEnemy",
+  "victim" : "Candykizzer",
+  "type" : "KILL",
+  "fame" : 1340.0
+},
+{
+  "eventId": "1",
+  "killId" : "MjAxOC0xMi0xNFQxODo0NzozNi4zMDM3MjExMDBaTHlyeWNzYm91cnNvdWZsdXg=",
+  "guild" : "Red",
+  "ts" : "2018-12-14T18:47:36.303721100Z",
+  "killer" : "Lyrycs",
+  "victim" : "boursouflux",
+  "type" : "KILL",
+  "fame" : 6142.0
+},
+{
+  "eventId": "1",
+  "killId" : "MjAxOC0xMi0xNFQxODo0OTo0My45MDk1NDY1MDBaTHlyeWNzR2VuQnV0dE5ha2Vk",
+  "guild" : "Red",
+  "ts" : "2018-12-14T18:49:43.909546500Z",
+  "killer" : "Lyrycs",
+  "victim" : "GenButtNaked",
+  "type" : "KILL",
+  "fame" : 7460.0
+},
+{
+  "eventId": "1",
+  "killId" : "MjAxOC0xMi0xNFQxODo0OToyMi4zODUyOTM2MDBaS2luYmVsUG9ncm9t",
+  "guild" : "Blue",
+  "ts" : "2018-12-14T18:49:22.385293600Z",
+  "killer" : "Kinbel",
+  "victim" : "Pogrom",
+  "type" : "KILL",
+  "fame" : 8424.0
+},
+{
+  "eventId": "1",
+  "killId" : "MjAxOC0xMi0xN1QyMTowNzo1MC45NDAyNTM2MDBaU25heHhvckVyZWRpaW4=",
+  "guild" : "Red",
+  "ts" : "2018-12-17T21:07:50.940253600Z",
+  "killer" : "Snaxxor",
+  "victim" : "Erediin",
+  "type" : "KILL",
+  "fame" : 0
+},
+{
+  "eventId": "1",
+  "killId" : "MjAxOC0xMi0xN1QyMTowNjozMS4yOTk3Mjc4MDBaU2lyQWxiaW9uQWFhbm5paGlsYXRvcg==",
+  "guild" : "Blue",
+  "ts" : "2018-12-17T21:06:31.299727800Z",
+  "killer" : "Yobi",
+  "victim" : "Vomo",
+  "type" : "KILL",
+  "fame" : 0
+},
+  {
+    "eventId": "2",
+    "killId" : "ZjAxOC0xMi0xNFQxODozMzo1MC4zMjQwMDFaTWlldGVnUmF2YW4=",
+    "guild" : "Red",
+    "ts" : "2018-12-14T18:33:50.324001Z",
+    "killer" : "Kolo",
+    "victim" : "Zoro",
+    "type" : "KILL",
+    "fame" : 0.0
+  },
+  {
+    "eventId": "2",
+    "killId" : "ZjAxOC0xMi0xNFQxODozMzo0My45NTIwNjE0MDBaTHlyeWNzR29ubWFn",
+    "guild" : "Red",
+    "ts" : "2018-12-14T18:33:43.952061400Z",
+    "killer" : "Ziko",
+    "victim" : "Danny",
+    "type" : "KILL",
+    "fame" : 0.0
+  },
+  {
+    "eventId": "2",
+    "killId" : "ZjAxOC0xMi0xNFQxODozMzoxNC4wMDIxMzA3MDBaTHlyeWNzUmF2YW4=",
+    "guild" : "Red",
+    "ts" : "2018-12-14T18:33:14.002130700Z",
+    "killer" : "Vova",
+    "victim" : "Niro",
+    "type" : "KILL",
+    "fame" : 10271.0
+  },
+  {
+    "eventId": "2",
+    "killId" : "ZjAxOC0xMi0xNFQxODo0Nzo0NC44NDU2NTIxMDBaWW91ckVuZW15Q2FuZHlraXp6ZXI=",
+    "guild" : "Red",
+    "ts" : "2018-12-14T18:47:44.845652100Z",
+    "killer" : "Gora",
+    "victim" : "Nil",
+    "type" : "KILL",
+    "fame" : 1340.0
+  },
+  {
+    "eventId": "2",
+    "killId" : "ZjAxOC0xMi0xNFQxODo0NzozNi4zMDM3MjExMDBaTHlyeWNzYm91cnNvdWZsdXg=",
+    "guild" : "Red",
+    "ts" : "2018-12-14T18:47:36.303721100Z",
+    "killer" : "Pop",
+    "victim" : "Sadil",
+    "type" : "KILL",
+    "fame" : 6142.0
+  },
+  {
+    "eventId": "2",
+    "killId" : "ZjAxOC0xMi0xNFQxODo0OTo0My45MDk1NDY1MDBaTHlyeWNzR2VuQnV0dE5ha2Vk",
+    "guild" : "Red",
+    "ts" : "2018-12-14T18:49:43.909546500Z",
+    "killer" : "Doram",
+    "victim" : "Raba",
+    "type" : "KILL",
+    "fame" : 7460.0
+  },
+  {
+    "eventId": "2",
+    "killId" : "ZjAxOC0xMi0xNFQxODo0OToyMi4zODUyOTM2MDBaS2luYmVsUG9ncm9t",
+    "guild" : "Blue",
+    "ts" : "2018-12-14T18:49:22.385293600Z",
+    "killer" : "Sibl",
+    "victim" : "Pogromer",
+    "type" : "KILL",
+    "fame" : 8424.0
+  },
+  {
+    "eventId": "2",
+    "killId" : "ZjAxOC0xMi0xN1QyMTowNzo1MC45NDAyNTM2MDBaU25heHhvckVyZWRpaW4=",
+    "guild" : "Blue",
+    "ts" : "2018-12-17T21:07:50.940253600Z",
+    "killer" : "Suka",
+    "victim" : "Kabuka",
+    "type" : "KILL",
+    "fame" : 0
+  },
+  {
+    "eventId": "2",
+    "killId" : "ZjAxOC0xMi0xN1QyMTowNjozMS4yOTk3Mjc4MDBaU2lyQWxiaW9uQWFhbm5paGlsYXRvcg==",
+    "guild" : "Blue",
+    "ts" : "2018-12-17T21:06:31.299727800Z",
+    "killer" : "Colad",
+    "victim" : "VVb",
+    "type" : "KILL",
+    "fame" : 0
+  }
+]
