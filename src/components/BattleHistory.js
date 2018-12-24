@@ -45,16 +45,18 @@ const BattleHistory = props => {
 		{
 			title: 'Fame',
 			key: 'fame',
-			render: ({fame}) => {
+			render: ({ fame }) => {
 				return new Intl.NumberFormat('en-US').format(fame)
 			}
 		}
 	]
-	return <StyledBattleHistory>
+	return (
+		<StyledBattleHistory>
 			<StyledHeader>battle history</StyledHeader>
 			<StyledTable>
 				<Table columns={columns} data={data} />
 			</StyledTable>
 		</StyledBattleHistory>
+	)
 }
 export default BattleHistory

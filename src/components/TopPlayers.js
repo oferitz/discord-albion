@@ -32,7 +32,7 @@ const TopPlayers = props => {
 		{
 			title: 'Fame',
 			key: 'fame',
-			render: ({totalFame}) => {
+			render: ({ totalFame }) => {
 				return new Intl.NumberFormat('en-US').format(totalFame)
 			}
 		}

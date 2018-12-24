@@ -1,18 +1,18 @@
-const express = require("express");
-const { initDB } = require("./service/DB");
-const discordClient = require("./service/discord");
-const middleware = require("./middleware");
-const routes = require("./routes");
-const { PORT } = require("./config");
+const express = require('express')
+const { initDB } = require('./service/DB')
+const discordClient = require('./service/discord')
+const middleware = require('./middleware')
+const routes = require('./routes')
+const { PORT } = require('./config')
 
-const app = express();
+const app = express()
 
 initDB().then(db => {
-  discordClient.init();
-});
+	discordClient.init()
+})
 
-middleware(app);
-routes(app);
+middleware(app)
+routes(app)
 app.listen(PORT, () => {
-  console.log(`*** Server is running on port ${PORT}`);
-});
+	console.log(`*** Server is running on port ${PORT}`)
+})

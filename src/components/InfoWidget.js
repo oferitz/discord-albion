@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
 
-
 const StyledInfoWidget = styled.div({
 	display: 'flex',
 	justifyContent: 'center'
@@ -14,21 +13,22 @@ const StyledInfoWidgetContent = styled.div({
 	'label, strong': {
 		display: 'block'
 	},
-	'strong': {
+	strong: {
 		fontSize: '2em',
 		marginTop: 5
 	},
-	'p': {
+	p: {
 		fontSize: 11
 	}
 })
-
 
 const InfoWidget = props => {
 	const { icon, title, value, sub } = props
 	return (
 		<StyledInfoWidget>
-			<StyledInfoWidgetIcon><img src={icon} width={50} /></StyledInfoWidgetIcon>
+			<StyledInfoWidgetIcon>
+				<img src={icon} width={50} />
+			</StyledInfoWidgetIcon>
 			<StyledInfoWidgetContent>
 				<label>{title}</label>
 				<strong>{value}</strong>

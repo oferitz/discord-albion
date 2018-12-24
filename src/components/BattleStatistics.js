@@ -33,7 +33,7 @@ const BattleStatistics = props => {
 		{
 			title: 'Fame',
 			key: 'fame',
-			render: ({fame}) => {
+			render: ({ fame }) => {
 				return new Intl.NumberFormat('en-US').format(fame)
 			}
 		}

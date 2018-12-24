@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import format from 'date-fns/format'
 import styled from '@emotion/styled'
-import {SIDE_BAR_WIDTH} from '../style/global'
+import { SIDE_BAR_WIDTH } from '../style/global'
 
 const StyledEvents = styled.div({
 	position: 'fixed',
@@ -10,9 +10,9 @@ const StyledEvents = styled.div({
 	width: SIDE_BAR_WIDTH,
 	background: '#673ab7',
 	height: '100vh',
-	'h2': {
+	h2: {
 		padding: 10,
-		textAlign: 'center',
+		textAlign: 'center'
 	}
 })
 const StyledEventList = styled.div({
@@ -28,18 +28,17 @@ const StyledEventItem = styled.div(
 			borderLeft: '2px solid #fff'
 		}
 	},
-	({isActive}) => ({
+	({ isActive }) => ({
 		background: isActive ? '#8053E4' : 'none',
 		borderLeft: isActive ? '2px solid #fff' : 'none'
 	})
-
 )
 
 const renderLoading = () => <div>...loading</div>
 
 const renderEvents = (data, onSelect) => {
 	const [activeEvent, setActiveEvent] = useState(data[0].eventId)
-	const onEventClick = (eventId) => {
+	const onEventClick = eventId => {
 		setActiveEvent(eventId)
 		onSelect(eventId)
 	}

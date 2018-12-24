@@ -1,4 +1,4 @@
-export const SIDE_BAR_WIDTH='250px'
+export const SIDE_BAR_WIDTH = '250px'
 export default {
 	'*': {
 		padding: 0,
@@ -19,4 +19,3 @@ export default {
 		color: '#fff'
 	}
 }
-
