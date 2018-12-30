@@ -30,7 +30,6 @@ const App = props => {
 	}
 	const [eventId, setEventId] = useState(0)
 	const events = useFetch(`http://localhost:7861/events`)
-	console.log(events)
 	const kills = useFetch(`http://localhost:7861/kills/${eventId}`, eventId)
 
 	return (

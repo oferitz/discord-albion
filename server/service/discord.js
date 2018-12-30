@@ -42,6 +42,11 @@ client.on('message', async message => {
       message.channel.send(msg)
       await startEvent(message)
     }
+
+    if (message.content === `${BOT_PREFIX}health`) {
+      message.channel.send('OK')
+    }
+
   } catch (e) {
     console.error(e.message)
     resetEvent()
