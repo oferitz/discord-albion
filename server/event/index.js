@@ -55,7 +55,7 @@ async function addKill({ killId, guild, ts, killer, victim, type, fame }) {
 // =====================================================================
 async function startEvent(message) {
   let eventStartTime = toUTC()
-  // await addEvent(eventStartTime)
+  await addEvent(eventStartTime)
   let blueMembers = []
   let redMembers = []
   let membersWithRoleBlue = message.guild.roles.get(BLUE_ROLE_ID).members
