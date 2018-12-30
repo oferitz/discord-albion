@@ -37,6 +37,7 @@ const StyledEventItem = styled.div(
 const renderLoading = () => <div>...loading</div>
 
 const renderEvents = (data, onSelect) => {
+  if(!data[0]) return <div>No Events Yet...</div>
   const [activeEvent, setActiveEvent] = useState(data[0].eventId)
   const onEventClick = eventId => {
     setActiveEvent(eventId)

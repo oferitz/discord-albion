@@ -12,8 +12,7 @@ const Error = props => {
   const { msg } = props
   return (
     <StyledError>
-      <h1>Something went wrong :(</h1>
-      <pre>{msg}</pre>
+      <h1>No Data Yet...</h1>
     </StyledError>
   )
 }

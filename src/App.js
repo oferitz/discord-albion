@@ -29,8 +29,8 @@ const App = props => {
 		setEventId(eventId)
 	}
 	const [eventId, setEventId] = useState(0)
-	const events = useFetch(`http://localhost:7861/events`)
-	const kills = useFetch(`http://localhost:7861/kills/${eventId}`, eventId)
+	const events = useFetch(`http://api.rvb.wtf:7861/events`)
+	const kills = useFetch(`http://api.rvb.wtf:7861/kills/${eventId}`, eventId)
 
 	return (
 		<Fragment>
