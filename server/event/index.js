@@ -62,10 +62,10 @@ async function startEvent(message) {
   let membersWithRoleRed = message.guild.roles.get(RED_ROLE_ID).members
 
   for (let pair of membersWithRoleBlue) {
-    blueMembers.push(pair[1].user.username)
+    blueMembers.push(pair[1].member.nickname)
   }
   for (let pair of membersWithRoleRed) {
-    redMembers.push(pair[1].user.username)
+    redMembers.push(pair[1].member.nickname)
   }
 
   console.log(`*** [BLUE] ${blueMembers.length} members`)

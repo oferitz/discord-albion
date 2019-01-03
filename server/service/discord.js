@@ -44,7 +44,7 @@ client.on('message', async message => {
     }
 
     if (message.content === `${BOT_PREFIX}health`) {
-      message.channel.send('OK')
+      message.channel.send('✌️')
     }
 
   } catch (e) {
